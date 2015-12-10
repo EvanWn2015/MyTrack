@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#80ffffff"
+    android:elevation="5dp">
+
+
+    <ImageView
+        android:id="@+id/iv_records_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/imagebg_border" 
+        android:elevation="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_records_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_records_img"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/iv_records_img"
+        android:layout_toRightOf="@+id/iv_records_img"
+        android:ellipsize="end"
+        android:maxLength="8"
+        android:maxLines="1"
+        android:text="tv_records_title"
+        android:textColor="@color/DimGray"
+        android:textSize="8pt" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_records_title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/iv_records_img"
+        android:layout_toRightOf="@+id/iv_records_img"
+        android:background="@color/LightPink" 
+        android:elevation="2dp"/>
+
+    <TextView
+
+        android:id="@+id/tv_records_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_records_title"
+        android:layout_alignStart="@+id/tv_records_title"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="tv_records_content"
+        android:textColor="@color/DarkGray" />
+
+    <TextView
+        android:id="@+id/tv_records_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_records_title"
+        android:layout_alignEnd="@+id/view"
+        android:layout_alignRight="@+id/view"
+        android:text="tv_records_date"
+        android:textColor="@color/LightGrey"
+        android:textSize="5pt" />
+
+
+</RelativeLayout>

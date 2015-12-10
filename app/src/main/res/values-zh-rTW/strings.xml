@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">軌跡日記</string>
+
+
+    <string name="home">首頁</string>
+    <string name="maps">地圖</string>
+    <string name="records">紀錄</string>
+    <string name="albums">像冊</string>
+    <string name="settings">設定</string>
+
+
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+
+    <string name="prompt">選擇語言</string>
+    <string-array name="language_array">
+        <item>繁體中文</item>
+        <item>English</item>
+    </string-array>
+</resources>

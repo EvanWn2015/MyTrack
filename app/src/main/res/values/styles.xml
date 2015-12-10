@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <!-- Dialog Style-->
+    <style name="selectorDialog" parent="@android:style/Theme.Dialog">
+        <!-- 邊框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 整個 layout 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 拿掉標題 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+        <!-- 由 XML 設定 Dialog 視窗是否變暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 亮度從 0 到 1.0 -->
+        <item name="android:backgroundDimAmount">0.7</item>
+    </style>
+
+    <!-- RatingBar Style -->
+    <style name="ratingbar_style" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_style</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:maxHeight">40dp</item>
+        <item name="android:stepSize">1</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+    
+    <style name="dialog_text_style" parent="android:style/Widget.TextView">
+        <item name="android:textSize">10pt</item>
+    </style>
+
+
+</resources>
